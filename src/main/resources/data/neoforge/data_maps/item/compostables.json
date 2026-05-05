@@ -1,0 +1,14 @@
+{
+  "values": {
+    "curatedcrops:blueberries": {
+      "chance": 0.3
+    },
+    "curatedcrops:strawberries": {
+      "chance": 0.3
+    },
+    "curatedcrops:raspberries": {
+      "chance": 0.3
+    }
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "block.curatedcrops.blueberrybush": "Blueberry Bush",
+  "block.curatedcrops.raspberrybush": "Raspberry Bush",
+  "block.curatedcrops.strawberrybush": "Strawberry Bush",
+
+  "item.curatedcrops.blueberries": "Blueberries",
+  "item.curatedcrops.strawberries": "Strawberries",
+  "item.curatedcrops.raspberries": "Raspberries",
+
+  "itemGroup.curatedcrops.title": "Curated Crops"
+}
