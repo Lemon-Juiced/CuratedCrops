@@ -1,9 +1,9 @@
 {
-  "feature": "curatedcrops:strawberry_bush",
+  "feature": "curatedcrops:corn",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 32
+      "chance": 12
     },
     {
       "type": "minecraft:in_square"
@@ -19,8 +19,8 @@
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:uniform",
-        "max_inclusive": 16,
-        "min_inclusive": 4
+        "min_inclusive": 4,
+        "max_inclusive": 10
       }
     },
     {
@@ -56,3 +56,4 @@
     }
   ]
 }
+

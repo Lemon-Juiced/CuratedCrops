@@ -9,7 +9,7 @@ Berries like the vanilla Minecraft berries, also grow on bushes.
 
 ## Crops
 Crops that grow in tilled soil, like vanilla Minecraft crops.
-- Corn
+- Corn: Found in plains, savannas, and sunflower plains biomes.
 
 ## Foods
 Foods are crafted from other ingredients such as berries, crops, and other vanilla items.
