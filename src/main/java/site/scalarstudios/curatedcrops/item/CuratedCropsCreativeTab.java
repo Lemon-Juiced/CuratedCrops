@@ -27,6 +27,9 @@ public class CuratedCropsCreativeTab {
 
             // Crops
             event.accept(CuratedCropsItems.CORN.get());
+
+            // Food
+            event.accept(CuratedCropsItems.ROASTED_CORN.get());
         }
     }
 

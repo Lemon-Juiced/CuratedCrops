@@ -10,3 +10,7 @@ Berries like the vanilla Minecraft berries, also grow on bushes.
 ## Crops
 Crops that grow in tilled soil, like vanilla Minecraft crops.
 - Corn
+
+## Foods
+Foods are crafted from other ingredients such as berries, crops, and other vanilla items.
+- Roasted Corn

@@ -23,6 +23,9 @@ public class CuratedCropsItems {
     // Crops
     public static final DeferredItem<Item> CORN = ITEMS.registerItem("corn", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.CORN.get()), p -> p.food(CuratedCropsFoods.BASIC_VEGETABLE_FOOD_PROPERTIES));
 
+    // Food Items
+    public static final DeferredItem<Item> ROASTED_CORN = ITEMS.registerSimpleItem("roasted_corn", p -> p.food(CuratedCropsFoods.COOKED_VEGETABLE_FOOD_PROPERTIES));
+
     private static Function<Item.Properties, Item> createBlockItemWithCustomItemName(Supplier<? extends Block> block) {
         return p -> new BlockItem(block.get(), p.useItemDescriptionPrefix());
     }

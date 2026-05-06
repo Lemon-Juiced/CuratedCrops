@@ -11,6 +11,9 @@
     },
     "curatedcrops:corn": {
       "chance": 0.65
+    },
+    "curatedcrops:roasted_corn": {
+      "chance": 0.75
     }
   }
 }
