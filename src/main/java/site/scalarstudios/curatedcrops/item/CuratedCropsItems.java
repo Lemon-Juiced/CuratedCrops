@@ -20,6 +20,9 @@ public class CuratedCropsItems {
     public static final DeferredItem<Item> RASPBERRIES = ITEMS.registerItem("raspberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.RASPBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPERTIES));
     public static final DeferredItem<Item> STRAWBERRIES = ITEMS.registerItem("strawberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.STRAWBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPERTIES));
 
+    // Crops
+    public static final DeferredItem<Item> CORN = ITEMS.registerItem("corn", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.CORN.get()), p -> p.food(CuratedCropsFoods.BASIC_VEGETABLE_FOOD_PROPERTIES));
+
     private static Function<Item.Properties, Item> createBlockItemWithCustomItemName(Supplier<? extends Block> block) {
         return p -> new BlockItem(block.get(), p.useItemDescriptionPrefix());
     }

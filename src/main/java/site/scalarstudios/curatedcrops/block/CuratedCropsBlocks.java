@@ -7,7 +7,9 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import site.scalarstudios.curatedcrops.CuratedCrops;
 import site.scalarstudios.curatedcrops.block.custom.BerryBushBlock;
-import site.scalarstudios.curatedcrops.block.custom.BerryBushBlockProperties;
+import site.scalarstudios.curatedcrops.block.custom.properties.BerryBushBlockProperties;
+import site.scalarstudios.curatedcrops.block.custom.FourStageCropBlock;
+import site.scalarstudios.curatedcrops.block.custom.properties.VegetableProperties;
 import site.scalarstudios.curatedcrops.item.CuratedCropsItems;
 
 import java.util.function.Function;
@@ -17,9 +19,12 @@ public class CuratedCropsBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CuratedCrops.MODID);
 
     // Berry Bushes
-    public static final DeferredBlock<Block> BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush", p -> new BerryBushBlock(p, () -> CuratedCropsItems.BLUEBERRIES.get()), BerryBushBlockProperties.BERRY_BUSH_PROPERTIES.get());
-    public static final DeferredBlock<Block> STRAWBERRY_BUSH = registerBlockWithoutBlockItem("strawberry_bush", p -> new BerryBushBlock(p, () -> CuratedCropsItems.STRAWBERRIES.get()), BerryBushBlockProperties.BERRY_BUSH_PROPERTIES.get());
-    public static final DeferredBlock<Block> RASPBERRY_BUSH = registerBlockWithoutBlockItem("raspberry_bush", p -> new BerryBushBlock(p, () -> CuratedCropsItems.RASPBERRIES.get()), BerryBushBlockProperties.BERRY_BUSH_PROPERTIES.get());
+    public static final DeferredBlock<Block> BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush", p -> new BerryBushBlock(p, CuratedCropsItems.BLUEBERRIES), BerryBushBlockProperties.BERRY_BUSH_PROPERTIES.get());
+    public static final DeferredBlock<Block> STRAWBERRY_BUSH = registerBlockWithoutBlockItem("strawberry_bush", p -> new BerryBushBlock(p, CuratedCropsItems.STRAWBERRIES), BerryBushBlockProperties.BERRY_BUSH_PROPERTIES.get());
+    public static final DeferredBlock<Block> RASPBERRY_BUSH = registerBlockWithoutBlockItem("raspberry_bush", p -> new BerryBushBlock(p, CuratedCropsItems.RASPBERRIES), BerryBushBlockProperties.BERRY_BUSH_PROPERTIES.get());
+
+    // Crops
+    public static final DeferredBlock<Block> CORN = registerBlockWithoutBlockItem("corn",  p -> new FourStageCropBlock(p, CuratedCropsItems.CORN), VegetableProperties.VEGETABLE_CROP_PROPERTIES.get());
 
     private static DeferredBlock<Block> registerBlock(String name, UnaryOperator<BlockBehaviour.Properties> properties) {
         return registerBlock(name, Block::new, properties);

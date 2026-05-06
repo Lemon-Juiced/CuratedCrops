@@ -33,6 +33,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.neoforged.neoforge.common.CommonHooks;
+import site.scalarstudios.curatedcrops.block.custom.properties.BerryBushBlockProperties;
 
 import java.util.function.Supplier;
 

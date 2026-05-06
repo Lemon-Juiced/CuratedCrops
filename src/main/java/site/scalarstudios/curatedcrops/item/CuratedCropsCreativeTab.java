@@ -24,6 +24,9 @@ public class CuratedCropsCreativeTab {
             event.accept(CuratedCropsItems.BLUEBERRIES.get());
             event.accept(CuratedCropsItems.STRAWBERRIES.get());
             event.accept(CuratedCropsItems.RASPBERRIES.get());
+
+            // Crops
+            event.accept(CuratedCropsItems.CORN.get());
         }
     }
 

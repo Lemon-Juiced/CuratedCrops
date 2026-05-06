@@ -1,11 +1,13 @@
 {
-  "block.curatedcrops.blueberrybush": "Blueberry Bush",
-  "block.curatedcrops.raspberrybush": "Raspberry Bush",
-  "block.curatedcrops.strawberrybush": "Strawberry Bush",
+  "block.curatedcrops.blueberry_bush": "Blueberry Bush",
+  "block.curatedcrops.raspberry_bush": "Raspberry Bush",
+  "block.curatedcrops.strawberry_bush": "Strawberry Bush",
+  "block.curatedcrops.corn": "Corn",
 
   "item.curatedcrops.blueberries": "Blueberries",
   "item.curatedcrops.strawberries": "Strawberries",
   "item.curatedcrops.raspberries": "Raspberries",
+  "item.curatedcrops.corn": "Corn",
 
   "itemGroup.curatedcrops.title": "Curated Crops"
 }

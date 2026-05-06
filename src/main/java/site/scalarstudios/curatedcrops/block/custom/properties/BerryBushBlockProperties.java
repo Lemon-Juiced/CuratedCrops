@@ -1,4 +1,4 @@
-package site.scalarstudios.curatedcrops.block.custom;
+package site.scalarstudios.curatedcrops.block.custom.properties;
 
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
