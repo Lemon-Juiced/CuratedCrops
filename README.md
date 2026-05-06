@@ -13,4 +13,16 @@ Crops that grow in tilled soil, like vanilla Minecraft crops.
 
 ## Foods
 Foods are crafted from other ingredients such as berries, crops, and other vanilla items.
+- Cheese
 - Roasted Corn
+- Taco
+- Tortilla
+
+## Inspirations
+This mod was inspired by several other mods that add crops and food to Minecraft, most of which seem to either target too or too many crops:
+- [Better Berries Redux](https://www.curseforge.com/minecraft/mc-mods/better-berries-redux)
+- [Croptopia](https://www.curseforge.com/minecraft/mc-mods/croptopia)
+- [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
+- [Natura](https://www.curseforge.com/minecraft/mc-mods/natura)
+- [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)
+... and probably many more that I've since forgotten.

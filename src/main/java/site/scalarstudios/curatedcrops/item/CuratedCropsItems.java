@@ -16,15 +16,18 @@ public class CuratedCropsItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CuratedCrops.MODID);
 
     // Berries
-    public static final DeferredItem<Item> BLUEBERRIES = ITEMS.registerItem("blueberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.BLUEBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPERTIES));
-    public static final DeferredItem<Item> RASPBERRIES = ITEMS.registerItem("raspberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.RASPBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPERTIES));
-    public static final DeferredItem<Item> STRAWBERRIES = ITEMS.registerItem("strawberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.STRAWBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPERTIES));
+    public static final DeferredItem<Item> BLUEBERRIES = ITEMS.registerItem("blueberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.BLUEBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPS));
+    public static final DeferredItem<Item> RASPBERRIES = ITEMS.registerItem("raspberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.RASPBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPS));
+    public static final DeferredItem<Item> STRAWBERRIES = ITEMS.registerItem("strawberries", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.STRAWBERRY_BUSH.get()), p -> p.food(CuratedCropsFoods.BERRY_FOOD_PROPS));
 
     // Crops
-    public static final DeferredItem<Item> CORN = ITEMS.registerItem("corn", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.CORN.get()), p -> p.food(CuratedCropsFoods.BASIC_VEGETABLE_FOOD_PROPERTIES));
+    public static final DeferredItem<Item> CORN = ITEMS.registerItem("corn", createBlockItemWithCustomItemName(() -> CuratedCropsBlocks.CORN.get()), p -> p.food(CuratedCropsFoods.BASIC_VEGETABLE_FOOD_PROPS));
 
     // Food Items
-    public static final DeferredItem<Item> ROASTED_CORN = ITEMS.registerSimpleItem("roasted_corn", p -> p.food(CuratedCropsFoods.COOKED_VEGETABLE_FOOD_PROPERTIES));
+    public static final DeferredItem<Item> CHEESE = ITEMS.registerItem("cheese", p -> new Item(p.food(CuratedCropsFoods.CHEESE_FOOD_PROPS)));
+    public static final DeferredItem<Item> ROASTED_CORN = ITEMS.registerSimpleItem("roasted_corn", p -> p.food(CuratedCropsFoods.COOKED_VEGETABLE_FOOD_PROPS));
+    public static final DeferredItem<Item> TACO = ITEMS.registerItem("taco", p -> new Item(p.food(CuratedCropsFoods.TACO_FOOD_PROPS)));
+    public static final DeferredItem<Item> TORTILLA = ITEMS.registerItem("tortilla", p -> new Item(p.food(CuratedCropsFoods.TORTILLA_FOOD_PROPS)));
 
     private static Function<Item.Properties, Item> createBlockItemWithCustomItemName(Supplier<? extends Block> block) {
         return p -> new BlockItem(block.get(), p.useItemDescriptionPrefix());

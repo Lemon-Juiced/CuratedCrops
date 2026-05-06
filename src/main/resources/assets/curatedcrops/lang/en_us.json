@@ -8,7 +8,10 @@
   "item.curatedcrops.strawberries": "Strawberries",
   "item.curatedcrops.raspberries": "Raspberries",
   "item.curatedcrops.corn": "Corn",
+  "item.curatedcrops.cheese": "Cheese",
   "item.curatedcrops.roasted_corn": "Roasted Corn",
+  "item.curatedcrops.taco": "Taco",
+  "item.curatedcrops.tortilla": "Tortilla",
 
   "itemGroup.curatedcrops.title": "Curated Crops"
 }

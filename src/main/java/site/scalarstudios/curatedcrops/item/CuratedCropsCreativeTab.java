@@ -29,7 +29,10 @@ public class CuratedCropsCreativeTab {
             event.accept(CuratedCropsItems.CORN.get());
 
             // Food
+            event.accept(CuratedCropsItems.CHEESE.get());
             event.accept(CuratedCropsItems.ROASTED_CORN.get());
+            event.accept(CuratedCropsItems.TACO.get());
+            event.accept(CuratedCropsItems.TORTILLA.get());
         }
     }
 

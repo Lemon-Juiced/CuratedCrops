@@ -58,7 +58,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "better_berries:strawberries"
+          "name": "curatedcrops:strawberries"
         }
       ],
       "functions": [

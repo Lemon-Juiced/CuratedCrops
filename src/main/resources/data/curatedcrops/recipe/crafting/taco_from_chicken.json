@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "curatedcrops:tortilla",
+    "minecraft:cooked_chicken",
+    "curatedcrops:cheese"
+  ],
+  "result": {
+    "id": "curatedcrops:taco"
+  }
+}
